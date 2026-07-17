@@ -67,7 +67,7 @@ body {
 
   display: block;
 
-  width: min(100%, 1500px);
+  width: min(96vw, 1650px);
 
   max-height: calc(100vh - 32px);
 
@@ -127,7 +127,7 @@ body {
 
 @media (max-width: 700px) {
   .billboard {
-    min-height: 100svh;
+    min-height: 85vh;
 
     padding: 6px;
   }
@@ -259,7 +259,7 @@ body {
 
 .preview-image {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   display: block;
   margin: 30px auto 0;
   border-radius: 14px;
